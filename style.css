@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url("fonts/FiraCode-Regular.ttf");
+}
+
 body {
     background-color:#b3b3b3;
 }
@@ -5,9 +10,16 @@ body {
 h1 {
     
     text-align: center;
-    font-family: "Pixelify Sans";
+    font-family: "Pixelify Sans", "FiraCode";
     font-size: 100px;
+    margin-bottom: 0px;
     
+}
+
+h4 {
+    text-align: center;
+    font-family: "FiraCode";
+    font-size: 20px;
 }
 
 #linked-in-link {
@@ -61,6 +73,51 @@ hr {
     height: 160px;
     margin-left: auto;
     margin-right: auto;
+    border-color: darkblue;
+    border-width: 100px;
+    position: relative;
+}
+
+#jpl-logo {
+    position: relative;
+    top: 0px;
+    float: inherit;
+}
+
+#shooting-star-ele1 {
+    padding: 0%;
+    margin: 0%;
+    width: 5px;
+    height: 5px;
+    background: white;
+    animation: 10s linear 0s infinite running shootingStar;
+    position: absolute;
+    top: 40px;
+    
+}
+
+#shooting-star-ele2 {
+    padding: 0%;
+    margin: 0%;
+    width: 5px;
+    height: 5px;
+    background: white;
+    animation: 8s linear 3s infinite running shootingStarInverted;
+    position: absolute;
+    top: 80px;
+    
+}
+
+@keyframes shootingStar {
+    0% {margin-left:120%;}
+    10% {margin-left:-60%;}
+    100% {margin-left:-60%;}
+}
+
+@keyframes shootingStarInverted {
+    0% {margin-left:-20%;}
+    10% {margin-left:120%;}
+    100% {margin-left:120%;}
 }
 
 .link {

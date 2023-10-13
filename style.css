@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "FiraCode";
-    src: url("fonts/FiraCode-Regular.ttf");
-}
-
 body {
     background-color:#b3b3b3;
 }
@@ -10,15 +5,20 @@ body {
 h1 {
     
     text-align: center;
-    font-family: "Pixelify Sans", "FiraCode";
+    font-family: "Pixelify Sans", "Fira Code";
     font-size: 100px;
     margin-bottom: 0px;
+
     
+}
+
+.fade {
+    animation: 1s linear 0s 1 running fadeIn;
 }
 
 h4 {
     text-align: center;
-    font-family: "FiraCode";
+    font-family: "Fira Code";
     font-size: 20px;
 }
 
@@ -106,6 +106,11 @@ hr {
     position: absolute;
     top: 80px;
     
+}
+
+@keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 }
 
 @keyframes shootingStar {

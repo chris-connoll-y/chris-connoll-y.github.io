@@ -1,67 +1,79 @@
 body {
     background-color:#b3b3b3;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-    
-    text-align: center;
     font-family: "Pixelify Sans", "Fira Code";
-    font-size: 100px;
+    font-size: 80px;
     margin-bottom: 0px;
-
-    
+    margin-top: 0px;
 }
 
 .fade {
     animation: 1s linear 0s 1 running fadeIn;
 }
 
-h4 {
-    text-align: center;
+#email-address {
     font-family: "Fira Code";
     font-size: 20px;
+    position: relative;
+    clear: left;
+    margin-left: 10px;
+
+    left: 0px;
+
 }
 
 #linked-in-link {
     border-style: outset;
     border-width: 5px;
-    padding: 12px;
+    padding: 0px;
     border-color: #3c66ab;
-    margin: 10px;
-    position: static;
-
-    left:0px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 #github-link {
     border-style: outset;
     border-width: 5px;
-    padding: 12px;
+    padding: 0px;
     border-color: black;
     margin: 10px;
-    position: static;
-
-    left:0px;
+    position: absolute;
+    right: 150px;
 }
 
+
+
 #top-bar {
-    width: 530px;
-    border-style: solid;
-    border-width: 2px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #3b3b3b;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#my-name {
+    margin-left: 10px;
+    float: left;
+
 }
 
 hr {
     height: 10px;
     border: none;
     position: relative;
-    background: #eaeaea;
+    background: #3b3b3b;
   }
 
 .center {
     display: block;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -70,18 +82,16 @@ hr {
 #jpl-section {
     margin-top: 100px;
     background-image: url("/images/starry-background.jpg");
-    height: 160px;
+    height: 162px;
     margin-left: auto;
     margin-right: auto;
-    border-color: darkblue;
-    border-width: 100px;
+    border: 5px solid darkblue;
     position: relative;
 }
 
 #jpl-logo {
     position: relative;
     top: 0px;
-    float: inherit;
 }
 
 #shooting-star-ele1 {
@@ -90,7 +100,7 @@ hr {
     width: 5px;
     height: 5px;
     background: white;
-    animation: 10s linear 0s infinite running shootingStar;
+    animation: 8s linear 0s infinite running shootingStar;
     position: absolute;
     top: 40px;
     
@@ -102,7 +112,7 @@ hr {
     width: 5px;
     height: 5px;
     background: white;
-    animation: 8s linear 3s infinite running shootingStarInverted;
+    animation: 5s linear 3s infinite running shootingStarInverted;
     position: absolute;
     top: 80px;
     

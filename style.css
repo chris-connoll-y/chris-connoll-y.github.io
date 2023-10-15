@@ -12,26 +12,33 @@ h1 {
 }
 
 h3 {
-    font-family: "Fira Code";
+    font-family: "Pixelify Sans", "Fira Code";
     font-size: 30px;
     margin: 10px;
-}
-
-#text-paragraph {
-    margin-right: 630px;
+    color: white;
+    padding: 10px;
+    background-color: #3b3b3b;
+    display: inline-block;
     margin-left: 20px;
 }
 
-p {
+img {
+    display: block;
+}
+
+#text-paragraph {
+    padding: 10px;
     font-family: "Fira Code";
     background-color: white;
-    width: auto;
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
 }
 
 
+.flex-container {
+    display: flex;
+}
 
 .fade {
     animation: 1s linear 0s 1 running fadeIn;

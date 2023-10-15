@@ -11,6 +11,28 @@ h1 {
     margin-top: 0px;
 }
 
+h3 {
+    font-family: "Fira Code";
+    font-size: 30px;
+    margin: 10px;
+}
+
+#text-paragraph {
+    margin-right: 630px;
+    margin-left: 20px;
+}
+
+p {
+    font-family: "Fira Code";
+    background-color: white;
+    width: auto;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
 .fade {
     animation: 1s linear 0s 1 running fadeIn;
 }
@@ -21,7 +43,6 @@ h1 {
     position: relative;
     clear: left;
     margin-left: 10px;
-
     left: 0px;
 
 }
@@ -54,6 +75,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: auto;
+    top: 0px;
 
 
 }
